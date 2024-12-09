@@ -1,0 +1,91 @@
+@media screen and (max-width: 992px)
+{
+    /************ START  Navbar *************/
+    .my-nav button span
+    {
+        color: #fff;
+    }
+    .my-nav .navbar-toggler:focus,
+    .my-nav .navbar-toggler {
+    box-shadow: none !important; 
+    outline: none !important;    
+    }
+    .my-nav .navbar-toggler
+    {
+        
+        padding: 20px 18px;
+    }
+    .my-nav .navbar-toggler:hover
+    {
+        border: 1px solid #009AD8;
+        border-radius: 30px;
+
+    }
+    .my-nav .navbar-nav
+    {
+        margin-top: 25px;
+        text-align: center;
+        background-color: #262936;
+        border-radius: 10px;
+    }
+    .my-nav .navbar-nav .nav-item .nav-link
+    {
+        border:none !important;
+        padding-block: 20px !important;
+    }
+    .my-nav .navbar-nav .nav-item .nav-link:hover
+    {
+        border:none !important;
+        color:#ffff !important;
+    }
+    .my-nav .navbar-nav .nav-item .nav-link.active
+    {
+    border: unset !important;
+    color:var(--main-color);
+    }
+    .my-nav .navbar-nav .nav-item
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    }
+    /************ END  Navbar *************/
+
+    /************ START  Weather Table Section *************/
+    .weather-table #tomorrow
+    {
+        --bs-card-bg:unset;
+    }
+    .weather-table #tomorrow .card-body
+    {
+        height: 300px;
+    }
+    .weather-table #tomorrow .card-footer
+   {
+    border:unset !important;
+   }
+   /************ END  Weather Table Section *************/
+   
+   /************ START Footer *************/
+   footer .social-links
+   {
+    justify-content: unset !important;
+   }
+   footer p{
+    margin-top: 20px !important;
+ }
+ /************ END Footer *************/
+
+ /************ START Contact Page *************/
+ .contact .content
+ {
+    padding-top: 20px;
+ }
+ .contact .inner .icon .phone,
+ .contact .inner .icon .mail{
+   width: 100%;
+ }
+ .contact .inner .icon .mail
+ {
+    padding-top: 12px;
+ }
+ /************ END Contact Page *************/
+}

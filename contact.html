@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+
+    <!--? ============ Start FONTAWESOME LIBRAIRY ============ -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--? ============ End FONTAWESOME LIBRAIRY ============ -->
+
+    <!--? ============ Start BOOTSTRAP CSS ============ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--? ============ End BOOTSTRAP CSS ============ -->
+
+    <!--? ============ Start Media Query ============ -->
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+    <!--? ============ End Media Query ============ -->
+
+    <!--? ============ Start MAIN CSS ============ -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--? ============ End MAIN CSS ============ -->
+  </head>
+
+  <body>
+    <!--!  ============  Start  Navbar   ============ -->
+    <nav class="navbar navbar-expand-lg my-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+         <div class="logo d-flex justify-content-center align-items-center">
+            <div class="nav-img">
+               <img src="images/logo@2x.png" alt="cloud" class="w-100 d-block">
+            </div>
+            <div class="logo-title ms-3">
+               <h1>Weather</h1>
+               <span class="d-block">tagline goes here</span>
+            </div>
+         </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span ><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Live Cameras</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Photos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--!  ============  End  Navbar   ============ -->
+
+    <!--!  ============  Start  Main   ============ -->
+    <main>
+      <section class="contact">
+        <div class="container">
+          <div class="move">
+            <a href="index.html">Home</a>
+            <span><i class="fa-solid fa-arrow-right-long"></i></span>
+            <span class="cont">Contact</span>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="inner">
+                <div style="width: 100%" class="mb-2">
+                  <iframe
+                    class="rounded-top-2"
+                    width="100%"
+                    height="250px"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=220px&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    ><a href="https://www.gps.ie/">gps systems</a></iframe
+                  >
+                </div>
+                <span class="address d-flex mt-4 ms-3"
+                  ><i class="fa-solid fa-location-dot"></i
+                  ><span
+                    ><span class="d-block">Company Name INC.</span>
+                    <span>2803 Avenue Street, Los Angeles</span></span
+                  ></span
+                >
+                <div class="icon d-flex flex-wrap align-items-center ms-3">
+                  <span class="phone d-block me-4"
+                    ><i class="fa-solid fa-phone"></i>+1 800 314 235</span
+                  >
+                  <span class="mail"
+                    ><i class="fa-solid fa-envelope"></i
+                    >contact@companyname.com</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 offset-md-1">
+            <div class="content">
+              <h2 class="text-white">Contact us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi consectetur inventore ducimus, facilis, numquam id
+                soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                Nisi facilis odit hic, ipsum sed!
+              </p>
+              <form>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="Name" id="name" placeholder="Your Name..." class="w-100">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="email" name="email" id="email" placeholder="Email Address..." class="w-100">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="Company Name" class="w-100" id="CompanyName" placeholder="Company Name...">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="Website" class="w-100" id="Website" placeholder="Website...">
+                  </div>
+                </div>
+                <textarea name="message" id="message"  placeholder="Message..." class="w-100"></textarea>
+                <div class=" text-end">
+                  <button>Submit</button>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--!  ============  End  Main   ============ -->
+
+    <!--!  ============  Start Footer   ============ -->
+    <footer>
+      <div class="container">
+         <div class="row align-items-center g-3">
+            <div class="col-md-8">
+               <div class="subscribe position-relative">
+                  <input type="text" id="inputsubscribe" placeholder="Enter your email to subscribe..." class="w-100" >
+                  <button type="submit">Subscribe</button>
+               </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+               <div class="social-links d-flex justify-content-center align-items-center">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+               </div>
+            </div>
+         </div>
+
+         <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+    </footer>
+    <!--!  ============  End Footer   ============ -->
+
+
+    <!--? ============ Start BOOTSTRAP JS ============ -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--? ============ End BOOTSTRAP JS ============ -->
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <!--? ============ FavIcon ============ -->
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!--? ============ Start FONTAWESOME LIBRAIRY ============ -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--? ============ End FONTAWESOME LIBRAIRY ============ -->
+      
+    <!--? ============ Start BOOTSTRAP CSS ============ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--? ============ End BOOTSTRAP CSS ============ -->
+   
+    <!--? ============ Start Media Query ============ -->
+    <link rel="stylesheet" href="css/mediaQuery.css" />
+    <!--? ============ End Media Query ============ -->
+
+    <!--? ============ Start MAIN CSS ============ -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!--? ============ End MAIN CSS ============ -->
+</head>
+
+<body>
+
+   
+   <!--!  ============  Start  Navbar   ============ -->
+   <nav class="navbar navbar-expand-lg my-nav">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+         <div class="logo d-flex justify-content-center align-items-center">
+            <div class="nav-img">
+               <img src="images/logo@2x.png" alt="cloud" class="w-100 d-block">
+            </div>
+            <div class="logo-title ms-3">
+               <h1>Weather</h1>
+               <span class="d-block">tagline goes here</span>
+            </div>
+         </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span ><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto  mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#">Live Cameras</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Photos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="contact.html">Contact</a>
+             </li>
+          </ul>
+        </div>
+      </div>
+   </nav>
+   <!--!  ============  End  Navbar   ============ -->
+
+
+   <!--!  ============  Start  Main   ============ -->
+   <main>
+      <section class="header">
+         <div class="container">
+            <div class="search-bar position-relative">
+               <input type="search" id="inputSearch" placeholder="Find Your Location..." class="w-100" >
+               <button class="btn-find">Find</button>
+            </div>
+         </div>
+      </section>
+      <section class="weather-table">
+         <div class="container">
+            <div class="row g-0" id="rowData">
+               
+            </div>
+         </div>
+      </section>
+   </main>
+   <!--!  ============  End  Main   ============ -->
+
+   <!--!  ============  Start  Loading   ============ -->
+   <div class="loading d-none" id="loading">
+      <span class="loader"></span>
+   </div>
+   <!--!  ============  End  Loading   ============ -->
+
+   <!--!  ============  Start Footer   ============ -->
+   <footer>
+      <div class="container">
+         <div class="row align-items-center g-3">
+            <div class="col-md-8">
+               <div class="subscribe position-relative">
+                  <input type="text" id="inputsubscribe" placeholder="Enter your email to subscribe..." class="w-100" >
+                  <button type="submit">Subscribe</button>
+               </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+               <div class="social-links d-flex justify-content-center align-items-center">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+               </div>
+            </div>
+         </div>
+
+         <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+      </div>
+   </footer>
+   <!--!  ============  End Footer   ============ -->
+
+
+   <!--? ============ Start BOOTSTRAP JS ============ -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <!--? ============ End BOOTSTRAP JS ============ -->
+
+   <!--? ============ Start Main JS ============ -->
+   <script src="js/index.js"></script>
+   <!--? ============ End Main JS ============ -->
+</body>
+</html>
